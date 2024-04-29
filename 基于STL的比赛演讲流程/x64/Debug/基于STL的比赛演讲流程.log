@@ -1,0 +1,29 @@
+﻿  speechManager.cpp
+D:\WSK\VS Project\基于STL的比赛演讲流程\基于STL的比赛演讲流程\speechManager.cpp(126,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\numeric(37,26): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\numeric(37,26): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\numeric(37,26): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\numeric(37,26): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\numeric(37,26): warning C4244:         ]
+  (编译源文件“speechManager.cpp”)
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\numeric(37,26):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\WSK\VS Project\基于STL的比赛演讲流程\基于STL的比赛演讲流程\speechManager.cpp(269,16):
+  	查看对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(const _InIt,const _InIt,_Ty)”的引用
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\numeric(46,17):
+  	查看对正在编译的函数 模板 实例化“_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)”的引用
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+  
+  演讲比赛流程管理系统.cpp
+  正在生成代码...
+  基于STL的比赛演讲流程.vcxproj -> D:\WSK\VS Project\基于STL的比赛演讲流程\x64\Debug\基于STL的比赛演讲流程管理系统.exe
